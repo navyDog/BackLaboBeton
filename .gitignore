@@ -111,7 +111,7 @@ Dockerfile
 .idea/
 .continue/
 
-logs/
+
 
 *.backup
 .DS_Store
