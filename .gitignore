@@ -4,10 +4,7 @@
 
 
 
-# Logs
-logs
-*.log
-npm-debug.log*
+
 
 # Runtime data
 pids
@@ -115,6 +112,6 @@ Dockerfile
 .continue/
 
 logs/
-*.log
+
 *.backup
 .DS_Store
