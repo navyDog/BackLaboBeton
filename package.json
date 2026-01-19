@@ -3,7 +3,7 @@
   "version": "0.2.1",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js > app.log 2>&1",
     "dev": "nodemon server.js"
   },
     "engines": {
