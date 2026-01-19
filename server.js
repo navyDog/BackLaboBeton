@@ -4,8 +4,12 @@ import app from './src/app.js';
 import { connectDB } from './src/config/database.js';
 import logger from './src/config/logger.js';
 
+console.log("DEBUG ENV - MONGO_URI existe :", !!process.env.MONGO_URI);
+console.log("DEBUG ENV - PORT :", process.env.PORT);
 const PORT = process.env.PORT || 8080;
 let server;
+
+
 
 // Helper de logs de démarrage
 const printStartupSummary = () => {
